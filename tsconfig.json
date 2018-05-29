@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "jsx": "react",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  }
+}
