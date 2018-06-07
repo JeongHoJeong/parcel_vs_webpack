@@ -30,4 +30,7 @@ This example uses:
 
 ## Problems
 Parcel's code splitting feature has some issue with MobX. With Parcel, MobX is duplicated in two distinct bundles. Therefore MobX warns that it has multiple active instances.
-![MobX duplicated](/screenshots/mobx_duplicated.png)
+![Parcel bundles](/screenshots/parcel_bundles.png)
+
+On the other hand, Webpack doesn't have such issue.
+![Webpack bundles](/screenshots/webpack_bundles.png)
