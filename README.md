@@ -1,5 +1,8 @@
 # Parcel vs Webpack
 
+![Home Screenshot](/screenshots/home.png)
+![Todos Screenshot](/screenshots/todos.png)
+
 ## How to run
 ```bash
 yarn install
@@ -27,3 +30,4 @@ This example uses:
 
 ## Problems
 Parcel's code splitting feature has some issue with MobX. With Parcel, MobX is duplicated in two distinct bundles. Therefore MobX warns that it has multiple active instances.
+![MobX duplicated](/screenshots/mobx_duplicated.png)
